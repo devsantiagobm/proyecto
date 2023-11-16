@@ -4,35 +4,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 
 
+    <!-- ESTO DEBE IR -->
     <script src="https://kit.fontawesome.com/bcaf08f682.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/menu/styles/reset.css">
     <link rel="stylesheet" href="/menu/styles/menu.css">
-    <script src="../menu/menu.js" defer></script>
+    <script src="/menu/menu.js" defer></script>
 
-    <link rel="stylesheet" href="./styles/style.css">
 
-    <title>Tabla Citas</title>
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="/globals/styles/style.css">
+
 
 </head>
 
 <body>
 
 
+    <!-- ESTO DEBE IR -->
     <div class="content">
         <nav-menu></nav-menu>
-
         <main class="main">
-            <header>
-                <nav>
-                    <ul>
-                        <li><a href="nuevo.html">Nuevo</a></li>
-                    </ul>
-                </nav>
-            </header>
-            <h1>Citas</h1>
+
+            <div class="main__header">
+                <div class="main__header-text">
+                    <h1 class="main__title">Citas</h1>
+                    <span class="main__tablet">9</span>
+                </div>
+
+                <a class="main__link" href="./nuevo">
+                    <i class="fa-solid fa-plus"></i>
+                    <span>Nuevo</span>
+                </a>
+            </div>
+
+
+            <label for="search" class="main__label">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" id="search" class="main__input" placeholder="Buscar por nombre">
+            </label>
+
+
+
             <table id="keywords" cellspacing="0" cellpadding="0">
                 <thead>
                     <tr>

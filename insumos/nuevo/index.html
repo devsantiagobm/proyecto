@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <!-- ESTO DEBE IR -->
+    <script src="https://kit.fontawesome.com/bcaf08f682.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/menu/styles/reset.css">
+    <link rel="stylesheet" href="/menu/styles/menu.css">
+    <script src="/menu/menu.js" defer></script>
+
+    <link rel="stylesheet" href="/globals/styles/style.css">
+
+</head>
+
+<body>
+
+
+    <!-- ESTO DEBE IR -->
+    <div class="content">
+        <nav-menu></nav-menu>
+        <main class="main main--center">
+
+
+            <form class="form">
+                <h5 class="form__subheader">Nuevo insumo</h5>
+                <h1 class="form__title">Crea un nuevo insumo</h1>
+                <div class="form__input-box">
+                    <label for="Name" class="form__label">Nombre:</label>
+                    <input id="Name" type="text" class="form__input" placeholder="Nombre" name="nombre">
+                </div>
+                <div class="form__input-box">
+                    <label for="descripcion" class="form__label">Descripción:</label>
+                    <input id="descripcion" type="text" class="form__input" placeholder="Descripción"
+                        name="descripcion">
+                </div>
+                <div class="form__input-box">
+                    <label for="menuCategoriaDesplegable" class="form__label">Categoría:</label>
+                    <select id="menuCategoriaDesplegable" name="categoria" class="form__input">
+                        <option value="Opcion 1">Cuidado de la piel</option>
+                        <option value="Opcion 2">Cuidado del cabello</option>
+                        <option value="Opcion 3">Salud y bienestar</option>
+                        <option value="Opcion 4">Otros</option>
+                    </select>
+                </div>
+                <div class="form__input-box">
+                    <label for="precio" class="form__label">Precio unitario:</label>
+                    <input id="precio" type="text" class="form__input" placeholder="Precio unitario" name="precio">
+                </div>
+                <div class="form__input-box">
+                    <input type="submit" value="Crear insumo" class="form__input form__input--submit">
+                </div>
+            </form>
+
+        </main>
+    </div>
+
+</body>
+
+</html>

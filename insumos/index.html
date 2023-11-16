@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+
+  <!-- ESTO DEBE IR -->
+  <script src="https://kit.fontawesome.com/bcaf08f682.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/menu/styles/reset.css">
+  <link rel="stylesheet" href="/menu/styles/menu.css">
+  <script src="/menu/menu.js" defer></script>
+
+
+  <link rel="stylesheet" href="/globals/styles/style.css">
+
+
+</head>
+
+<body>
+
+
+  <!-- ESTO DEBE IR -->
+  <div class="content">
+    <nav-menu></nav-menu>
+    <main class="main">
+
+      <div class="main__header">
+        <div class="main__header-text">
+          <h1 class="main__title">Insumos</h1>
+          <span class="main__tablet">6</span>
+        </div>
+
+        <a class="main__link" href="./nuevo">
+          <i class="fa-solid fa-plus"></i>
+          <span>Nuevo</span>
+        </a>
+      </div>
+
+
+      <label for="search" class="main__label">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" id="search" class="main__input" placeholder="Buscar por nombre">
+      </label>
+
+
+      <table id="keywords" cellspacing="0" cellpadding="0">
+        <thead>
+          <tr>
+            <th><span>Nombre</span></th>
+            <th><span>Descripcion</span></th>
+            <th><span>Categoria</span></th>
+            <th><span>Cantidad</span></th>
+            <th><span>Precio unitario</span></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="lalign">Botox</td>
+            <td>Es una neurotoxina que se utilza para rejuvenecer</td>
+            <td>Cuidado</td>
+            <td> 0</td>
+            <td>$25.000</td>
+          </tr>
+          <tr>
+            <td class="lalign">Ácido Hialurónico</td>
+            <td>El ácido hialurónico es un relleno dérmico</td>
+            <td>Relleno dérmico</td>
+            <td>18</td>
+            <td>$53.000</td>
+          </tr>
+          <tr>
+            <td class="lalign">Hilos tensores</td>
+            <td>Los hilos tensores son utilizados para levantar</td>
+            <td>Producto capilar</td>
+            <td>30</td>
+            <td>$25.000</td>
+          </tr>
+          <tr>
+            <td class="lalign">Criolipólisis</td>
+            <td>Este tratamiento utiliza frío para eliminar</td>
+            <td>Productos específicos</td>
+            <td>18</td>
+            <td>$30.000</td>
+          </tr>
+          <tr>
+            <td class="lalign">Peeling</td>
+            <td>Los peeling químicos son soluciones ácidas</td>
+            <td>Producto capilar</td>
+            <td>3</td>
+            <td>$60.000</td>
+          </tr>
+          <tr>
+            <td class="lalign">PMMA</td>
+            <td>Estos rellenos se utilizan para corregir</td>
+            <td>Maquillaje</td>
+            <td>11</td>
+            <td>$10.000</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+  </div>
+
+</body>
+
+</html>

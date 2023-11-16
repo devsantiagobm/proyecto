@@ -18,21 +18,18 @@ class Menu extends HTMLElement {
 
         <nav class="menu__nav">
 
-            <a href="/dashboard" class="menu__link">
-                <i class="menu__icons fa-regular fa-chart-bar"></i>
-                <span>Dashboard</span>
-            </a>
+            
+        <a href="/usuarios" class="menu__link">
+            <i class="menu__icons fa-regular fa-circle-user"></i>
+            <span>Usuarios</span>
+        </a>
+        <a href="/roles" class="menu__link">
+            <i class="menu__icons fa-regular fa-bookmark"></i>
+            <span>Roles</span>
+        </a>
             <a href="/insumos" class="menu__link">
                 <i class="menu__icons fa-regular fa-lemon"></i>
                 <span>Insumos</span>
-            </a>
-            <a href="/usuarios" class="menu__link">
-                <i class="menu__icons fa-regular fa-circle-user"></i>
-                <span>Usuarios</span>
-            </a>
-            <a href="/roles" class="menu__link">
-                <i class="menu__icons fa-regular fa-bookmark"></i>
-                <span>Roles</span>
             </a>
             <a href="/tratamientos" class="menu__link">
                 <i class="menu__icons fa-regular fa-sun"></i>
@@ -85,7 +82,5 @@ class Menu extends HTMLElement {
     }
 }
 
-
-console.log("funcionando...");
 
 window.customElements.define("nav-menu", Menu)
