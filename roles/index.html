@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roles</title>
+
+
+    <script src="https://kit.fontawesome.com/bcaf08f682.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/menu/styles/reset.css">
+    <link rel="stylesheet" href="/menu/styles/menu.css">
+    <script src="../menu/menu.js" defer></script>
+
+    <link rel="stylesheet" href="./styles/style.css">
+
+</head>
+
+<body>
+
+
+    <div class="content">
+        <nav-menu></nav-menu>
+
+        <main class="main">
+            <div class="main__header">
+                <div class="main__header-text">
+                    <h1 class="main__title">Roles</h1>
+                    <span class="main__tablet">3</span>
+                </div>
+
+                <a class="main__link" href="./nuevo">
+                    <i class="fa-solid fa-plus"></i>
+                    <span>Nuevo</span>
+                </a>
+            </div>
+
+
+            <label for="search" class="main__label">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" id="search" class="main__input" placeholder="Buscar por nombre">
+            </label>
+
+
+
+            <div class="table">
+                <div class="table__row first__row">
+                    <span class="table__cell">Nombre</span>
+                    <span class="table__cell">Descripción</span>
+                    <span class="table__cell">Estado</span>
+                    <span class="table__cell"></span>
+                </div>
+                <div class="table__row first__row">
+                    <span class="table__cell">Administrador</span>
+                    <span class="table__cell">Gestiona y supervisa la plataforma con poderes administrativos</span>
+                    <span class="table__cell">
+                        <div class="table__tablet">Habilitado</div>
+                    </span>
+                    <span class="table__cell table__cell--actions">
+                        <a href="./actualizar" class="table__action-icon">
+                            <i class="fa-regular fa-pen-to-square "></i>
+                        </a>
+                        <button class="table__action-icon">
+                            <i class="fa-regular fa-trash-can"></i>
+                        </button>
+                    </span>
+                </div>
+                <div class="table__row first__row">
+                    <span class="table__cell">Cosmetólogo</span>
+                    <span class="table__cell">Experto en belleza y estética para brindar servicios profesionales</span>
+                    <span class="table__cell">
+                        <div class="table__tablet">Habilitado</div>
+                    </span>
+                    <span class="table__cell table__cell--actions">
+                        <a href="./actualizar" class="table__action-icon">
+                            <i class="fa-regular fa-pen-to-square "></i>
+                        </a>
+                        <button class="table__action-icon">
+                            <i class="fa-regular fa-trash-can"></i>
+                        </button>
+                    </span>
+                </div>
+                <div class="table__row first__row">
+                    <span class="table__cell">Paciente</span>
+                    <span class="table__cell">Explora y disfruta de servicios y beneficios en la plataforma</span>
+                    <span class="table__cell">
+                        <div class="table__tablet">Habilitado</div>
+                    </span>
+                    <span class="table__cell table__cell--actions">
+                        <a href="./actualizar" class="table__action-icon">
+                            <i class="fa-regular fa-pen-to-square "></i>
+                        </a>
+                        <button class="table__action-icon">
+                            <i class="fa-regular fa-trash-can"></i>
+                        </button>
+                    </span>
+                </div>
+                <div class="table__row first__row">
+                    <span class="table__cell">Conocido</span>
+                    <span class="table__cell">Rol creado para probar la funcionalidad de la aplicación</span>
+                    <span class="table__cell">
+                        <div class="table__tablet table__tablet--disabled">Deshabilitado</div>
+                    </span>
+                    <span class="table__cell table__cell--actions">
+                        <a href="./actualizar" class="table__action-icon">
+                            <i class="fa-regular fa-pen-to-square "></i>
+                        </a>
+                        <button class="table__action-icon">
+                            <i class="fa-regular fa-trash-can"></i>
+                        </button>
+                    </span>
+                </div>
+            </div>
+        </main>
+    </div>
+
+</body>
+
+</html>

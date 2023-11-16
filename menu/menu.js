@@ -8,7 +8,7 @@ class Menu extends HTMLElement {
             `
         <aside class="menu">
         <picture class="menu__logo">
-            <img src="../menu/assets/logo.png" alt="">
+            <img src="/menu/assets/logo.png" alt="JB Cosmetología ícono" height="33">
         </picture>
 
         <hr class="menu__divider">
@@ -18,39 +18,39 @@ class Menu extends HTMLElement {
 
         <nav class="menu__nav">
 
-            <a href="./dashboard" class="menu__link">
+            <a href="/dashboard" class="menu__link">
                 <i class="menu__icons fa-regular fa-chart-bar"></i>
                 <span>Dashboard</span>
             </a>
-            <a href="./insumos" class="menu__link">
+            <a href="/insumos" class="menu__link">
                 <i class="menu__icons fa-regular fa-lemon"></i>
                 <span>Insumos</span>
             </a>
-            <a href="./usuarios" class="menu__link">
+            <a href="/usuarios" class="menu__link">
                 <i class="menu__icons fa-regular fa-circle-user"></i>
                 <span>Usuarios</span>
             </a>
-            <a href="./roles" class="menu__link">
+            <a href="/roles" class="menu__link">
                 <i class="menu__icons fa-regular fa-bookmark"></i>
                 <span>Roles</span>
             </a>
-            <a href="./tratamientos" class="menu__link">
+            <a href="/tratamientos" class="menu__link">
                 <i class="menu__icons fa-regular fa-sun"></i>
                 <span>Tratamientos</span>
             </a>
-            <a href="./citas" class="menu__link">
+            <a href="/citas" class="menu__link">
                 <i class="menu__icons fa-regular fa-bell"></i>
                 <span>Citas</span>
             </a>
-            <a href="./proveedores" class="menu__link">
+            <a href="/proveedores" class="menu__link">
                 <i class="menu__icons fa-regular fa-address-card"></i>
                 <span>Proveedores</span>
             </a>
-            <a href="./compras" class="menu__link">
+            <a href="/compras" class="menu__link">
                 <i class="menu__icons fa-solid fa-cart-shopping"></i>
                 <span>Compras</span>
             </a>
-            <a href="./unidades" class="menu__link">
+            <a href="/unidades" class="menu__link">
                 <i class="menu__icons fa-regular fa-clipboard"></i>
                 <span>Unidades</span>
             </a>
@@ -62,7 +62,7 @@ class Menu extends HTMLElement {
 
             <div class="menu__profile">
                 <picture>
-                    <img class="menu__avatar" src="../menu/assets/user-image.jpeg" alt="">
+                    <img class="menu__avatar" src="/menu/assets/user-image.jpeg" alt="">
                 </picture>
 
                 <div class="menu__user-data">

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roles</title>
+
+
+    <script src="https://kit.fontawesome.com/bcaf08f682.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/menu/styles/reset.css">
+    <link rel="stylesheet" href="/menu/styles/menu.css">
+    <script src="/menu/menu.js" defer></script>
+    <script src="./main.js" defer></script>
+
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+
+
+    <div class="content">
+        <nav-menu></nav-menu>
+
+        <main class="main">
+
+            <form class="form">
+                <span class="form__subheader">Actualizar rol</span>
+                <h1 class="form__title">Actualiza tus roles y sus permisos</h1>
+
+                <div class="form__input-box">
+                    <label for="nombre" class="form__label">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" class="form__input" placeholder="E.j. Cosmétologo">
+                </div>
+
+                <div class="form__input-box">
+                    <label for="descripcion" class="form__label">Descripción</label>
+                    <input type="text" id="descripcion" name="descripcion" class="form__input"
+                        placeholder="E.j. Gestiona y supervisa la plataforma con poderes administrativos ">
+                </div>
+
+                <div class="form__input-box">
+                    <label class="form__label">Permisos</label>
+
+                    <div class="form__toggles-list">
+                        <div class="form__toggles-box">
+                            <label class="form__switch">
+                                <input type="checkbox" class="form__checkbox" name="ejemplo">
+                                <span class="form__slider"></span>
+                            </label>
+
+                            <div class="form__switch-texts">
+                                <span class="form__switch-name">Tratamientos</span>
+                                <p class="form__switch-description">Permite controlar y editar la lista de procedimientos estéticos ofrecidos</p>
+                            </div>
+                        </div>
+                        <div class="form__toggles-box">
+                            <label class="form__switch">
+                                <input type="checkbox" class="form__checkbox" name="ejemplo">
+                                <span class="form__slider"></span>
+                            </label>
+
+                            <div class="form__switch-texts">
+                                <span class="form__switch-name">Insumos</span>
+                                <p class="form__switch-description">Posibilita la gestión de los suministros necesarios para los tratamientos</p>
+                            </div>
+                        </div>
+                        <div class="form__toggles-box">
+                            <label class="form__switch">
+                                <input type="checkbox" class="form__checkbox" name="ejemplo">
+                                <span class="form__slider"></span>
+                            </label>
+
+                            <div class="form__switch-texts">
+                                <span class="form__switch-name">Citas</span>
+                                <p class="form__switch-description">Facilita la administración de las agendas de citas de los pacientes</p>
+                            </div>
+                        </div>
+                        <div class="form__toggles-box">
+                            <label class="form__switch">
+                                <input type="checkbox" class="form__checkbox" name="ejemplo">
+                                <span class="form__slider"></span>
+                            </label>
+
+                            <div class="form__switch-texts">
+                                <span class="form__switch-name">Ventas</span>
+                                <p class="form__switch-description"> un registro detallado de la venta de los servicios  realizados en la clínica</p>
+                            </div>
+                        </div>
+                        <div class="form__toggles-box">
+                            <label class="form__switch">
+                                <input type="checkbox" class="form__checkbox" name="ejemplo">
+                                <span class="form__slider"></span>
+                            </label>
+
+                            <div class="form__switch-texts">
+                                <span class="form__switch-name">Usuarios</span>
+                                <p class="form__switch-description">Da acceso para gestionar cuentas y perfiles de los empleados y </p>
+                            </div>
+                        </div>
+                        <div class="form__toggles-box">
+                            <label class="form__switch">
+                                <input type="checkbox" class="form__checkbox" name="ejemplo">
+                                <span class="form__slider"></span>
+                            </label>
+
+                            <div class="form__switch-texts">
+                                <span class="form__switch-name">Roles</span>
+                                <p class="form__switch-description">Permite definir y modificar los niveles de acceso de los usuarios</p>
+                            </div>
+                        </div>
+                        <div class="form__toggles-box">
+                            <label class="form__switch">
+                                <input type="checkbox" class="form__checkbox" name="ejemplo">
+                                <span class="form__slider"></span>
+                            </label>
+
+                            <div class="form__switch-texts">
+                                <span class="form__switch-name">Agenda</span>
+                                <p class="form__switch-description">Facilita la gestión de disponibilidad de los empleados para agendar citas</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="form__input-box">
+                    <input type="submit" value="Actualizar rol" class="form__input form__input--submit">
+                </div>
+
+            </form>
+        </main>
+    </div>
+
+</body>
+
+</html>

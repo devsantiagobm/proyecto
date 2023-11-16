@@ -204,7 +204,8 @@ input,
 a,
 img,
 span,
-picture {
+picture,
+label {
     font-family: inherit;
     font-weight: inherit;
     font-style: inherit;
