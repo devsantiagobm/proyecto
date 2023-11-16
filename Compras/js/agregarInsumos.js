@@ -10,7 +10,7 @@ function $(selector){
 const button = $(".form__add-button")
 const inputsBox = $(".form__inputs-list")
 
-button.addEventListener("click", () => {
+button.addEventListener("click", function(){
     const newProduct = document.createElement("div")
     newProduct.classList = "form__insumo-box"
 
