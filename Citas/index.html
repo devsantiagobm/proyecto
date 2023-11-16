@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Citas</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="table.html">Tabla Citas</a></li>
+      </ul>
+    </nav>
+  </header>
+  <h1>Programa tu cita.</h1>
+  <h1>Encuentra el momento perfecto para cuidarte</h1>
+  <h1>Elige el tratamiento que deseas y reserva tu cita hoy mismo</h1>
+    <form class="form">
+        <div class="form-group">
+          <label for="notas">Notas :</label>
+          <input id="notas" type="text" class="form-control" placeholder="Notas">
+        </div>
+        <div class="form-group">
+          <label for="menuCategoriaDesplegable">tratamiento:</label>
+          <select id="menuCategoriaDesplegable" name="tratamiento" class="form-control">
+            <option value="Opcion 1">Cuidado de la piel</option>
+            <option value="Opcion 2">Cuidado del cabello</option>
+            <option value="Opcion 3">Salud y bienestar</option>
+            <option value="Opcion 4">Otros</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="menuCategoriaDesplegable">Cosmetólogo:</label>
+          <select id="menuCategoriaDesplegable" name="cosmetólogo" class="form-control">
+            <option value="Opcion 1">Alejandra Bautista</option>
+            <option value="Opcion 2">Lauren Villa</option>
+            <option value="Opcion 3">Mariana López</option>
+            <option value="Opcion 4">Otros</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="menuCategoriaDesplegable">Fecha:</label>
+          <input type="date" name="fecha">
+        </div>
+        <div class="form-group">
+          <input type="submit" value="Programar Cita" class="btn-primary btnn form-submit"></input>
+        </div>
+      </form>
+</body>
+</html>
