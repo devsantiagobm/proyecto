@@ -1,7 +1,7 @@
-function $(selector){
+function $(selector) {
     const element = document.querySelector(selector)
 
-    if(element) return element
+    if (element) return element
 
     throw new Error("Elemento no encontrado")
 }
@@ -10,7 +10,7 @@ function $(selector){
 const button = $(".form__add-button")
 const inputsBox = $(".form__inputs-list")
 
-button.addEventListener("click", function(){
+button.addEventListener("click", () => {
     const newProduct = document.createElement("div")
     newProduct.classList = "form__insumo-box"
 
