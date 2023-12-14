@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <!-- ESTO DEBE IR -->
+    <script src="https://kit.fontawesome.com/bcaf08f682.js" crossorigin="anonymous"></script>
+    
+    <script src="/globals/menu.js" defer></script>
+
+
+    <link rel="stylesheet" href="/globals/styles/style.css">
+
+</head>
+
+<body>
+
+
+    <!-- ESTO DEBE IR -->
+    <div class="content">
+        <nav-menu></nav-menu>
+        <main class="main main--center">
+
+            <h5 class="form__subheader">Reprograma tu cita.</h5>
+            <h1 class="form__title">Encuentra el momento perfecto para cuidarte</h1>
+            <form class="form">
+                <div class="form__input-box">
+                    <label for="notas" class="form__label">Notas :</label>
+                    <input id="notas" type="text" class="form__input" placeholder="Notas">
+                </div>
+                
+                <div class="form__input-box">
+                    <label for="menuCategoriaDesplegable" class="form__label">Fecha:</label>
+                    <input type="datetime-local" name="fecha" class="form__input">
+                </div>
+                <div class="form__input-box">
+                    <label for="menuCategoriaDesplegable" class="form__label">Dirección:</label>
+                    <input type="text" name="fecha" class="form__input
+                    ">
+                </div>
+
+                <div class="form__input-box">
+                    <label for="menuCategoriaDesplegable" class="form__label">Estado:</label>
+                    
+
+                    <div style="display: flex; gap: 8px">
+
+                        <div>
+                            <span>Completada</span>
+                            <input type="radio" name="cita">
+                        </div>
+                        <div>
+                            <span>En proceso</span>
+                            <input type="radio" name="cita">
+                        </div>
+                        <div>
+                            <span>Cancelada</span>
+                            <input type="radio" name="cita">
+                        </div>
+                    </div>
+                </div>
+                <div class="form__input-box">
+                    <input type="submit" value="Programar Cita" class="form__input form__input--submit"></input>
+                
+                </div>
+            </form>
+        </main>
+    </div>
+
+</body>
+
+</html>

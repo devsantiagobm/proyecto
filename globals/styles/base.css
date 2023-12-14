@@ -1,0 +1,30 @@
+
+:root {
+    --main: #6941C6;
+    --lighter-main: #7F56D9;
+    --bg: #fff;
+    --semi-darker-bg: #F9FAFB;
+    --darker-bg: #EAECF0;
+    --ultra-darker-bg: hsl(218, 22%, 90%);
+
+    --dark-color: hsl(0, 0%, 6%);
+    --color: #191D23;
+    --light-color: #667085;
+    --ultra-light-color: #D0D5DD;
+
+
+    --light: 300;
+    --regular: 400;
+    --semi: 500;
+    --medium: 600;
+    --bold: 700;
+}
+
+::selection{
+    color: var(--bg);
+    background-color: var(--lighter-main);
+}
+
+html{
+    color: var(--color);
+}

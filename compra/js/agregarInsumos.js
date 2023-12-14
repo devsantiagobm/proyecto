@@ -27,19 +27,9 @@ const productHTML = `<div class="form__insumo-box">
 <div class="form__input-box">
     <label class="form__label" for="menuCategoriaDesplegable">Insumo</label>
     <select id="menuCategoriaDesplegable" name="insumo1" class="form__input">
-        <option value="Opcion 1">Cuidado de la piel</option>
-        <option value="Opcion 2">Cuidado del cabello</option>
-        <option value="Opcion 3">Salud y bienestar</option>
-        <option value="Opcion 4">Otros</option>
-    </select>
-</div>
-<div class="form__input-box">
-    <label class="form__label" for="menuCategoriaDesplegable">Proveedor</label>
-    <select id="menuCategoriaDesplegable" name="insumo1" class="form__input">
-        <option value="Opcion 1">Proveedor A</option>
-        <option value="Opcion 2">Proveedor B</option>
-        <option value="Opcion 3">Proveedor C</option>
-        <option value="Opcion 4">Otros</option>
+    <option value="Opcion 1">Aceite</option>
+    <option value="Opcion 2">Botox</option>
+    <option value="Opcion 3">Chocolate</option>
     </select>
 </div>
 

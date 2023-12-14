@@ -1,0 +1,15 @@
+.hover-darker{
+    transition: filter .2s ease;
+}
+
+.hover-darker:hover, .button:hover{
+    filter: brightness(90%);
+}
+
+.button{
+    background-color: var(--main);
+    color: var(--bg);
+    padding: 12px 24px;
+    border-radius: 8px;
+    transition: filter .2s ease;
+}

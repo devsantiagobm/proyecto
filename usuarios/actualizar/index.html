@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <!-- ESTO DEBE IR -->
+    <script src="https://kit.fontawesome.com/bcaf08f682.js" crossorigin="anonymous"></script>
+
+    <script src="/globals/menu.js" defer></script>
+
+    <link rel="stylesheet" href="/globals/styles/style.css">
+
+</head>
+
+<body>
+
+
+    <!-- ESTO DEBE IR -->
+    <div class="content">
+        <nav-menu></nav-menu>
+        <main class="main main--center">
+
+
+            <form class="form">
+                <h1 class="form__title">Actualizar usuario</h1>
+                <div class="form__input-box">
+                    <label for="Name" class="form__label">Email:</label>
+                    <input id="Name" type="text" class="form__input" placeholder="Nombre" name="nombre" disabled
+                        value="email@email.com">
+                </div>
+                <div class="form__input-box">
+                    <label for="Name" class="form__label">Identificación:</label>
+                    <input id="Name" type="text" class="form__input" placeholder="Nombre" name="nombre" disabled
+                        value="01238901290">
+                </div>
+                <div class="form__input-box">
+                    <label for="Name" class="form__label">Fecha de nacimiento:</label>
+                    <input id="Name" type="text" class="form__input" placeholder="Nombre" name="nombre" 
+                        value="22/04/1954" disabled>
+                </div>
+                <div class="form__input-box">
+                    <label for="descripcion" class="form__label">Nombre:</label>
+                    <input id="descripcion" type="text" class="form__input" placeholder="Nombre" name="descripcion">
+                </div>
+                <div class="form__input-box">
+                    <label for="descripcion" class="form__label">Teléfono:</label>
+                    <input id="descripcion" type="text" class="form__input" placeholder="Teléfono" name="descripcion">
+                </div>
+                <div class="form__input-box">
+                    <label for="descripcion" class="form__label">Sexo:</label>
+
+                    <div style="display: flex; gap: 8px;">
+                        <div >
+
+                            <input id="descripcion" type="radio" class="form__input" placeholder="Teléfono"
+                                name="descripcion">
+                            Masculino
+                        </div>
+
+                        <div>
+                            <input id="descripcion" type="radio" class="form__input" placeholder="Teléfono"
+                                name="descripcion">
+                            Femenino
+
+                        </div>
+
+                            <div>
+
+                                <input id="descripcion" type="radio" class="form__input" placeholder="Teléfono" name="descripcion">
+                                Otro
+                            </div>
+                    </div>
+
+                </div>
+                <div class="form__input-box">
+                    <label for="menuCategoriaDesplegable" class="form__label">Rol:</label>
+                    <select id="menuCategoriaDesplegable" name="categoria" class="form__input">
+                        <option value="Opcion 1">Administrador</option>
+                        <option value="Opcion 2">Paciente</option>
+                        <option value="Opcion 3">Cosmetólogo</option>
+                    </select>
+                </div>
+
+
+                <radios-status></radios-status>
+
+                <div class="form__input-box">
+                    <input type="submit" value="Crear insumo" class="form__input form__input--submit">
+                </div>
+            </form>
+
+        </main>
+    </div>
+
+</body>
+
+</html>

@@ -8,9 +8,8 @@
 
 
     <script src="https://kit.fontawesome.com/bcaf08f682.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/menu/styles/reset.css">
-    <link rel="stylesheet" href="/menu/styles/menu.css">
-    <script src="../menu/menu.js" defer></script>
+
+    <script src="../globals/menu.js" defer></script>
 
     <link rel="stylesheet" href="/globals/styles/style.css">
 
@@ -43,7 +42,7 @@
 
 
 
-            <div class="table">
+            <!-- <div class="table">
                 <div class="table__row first__row">
                     <span class="table__cell">Nombre</span>
                     <span class="table__cell">Descripción</span>
@@ -110,7 +109,39 @@
                         </button>
                     </span>
                 </div>
-            </div>
+            </div> -->
+
+
+            <table id="keywords">
+                <thead>
+                    <tr>
+                        <th><span>Nombre</span></th>
+                        <th><span>Descripción</span></th>
+                        <th><span>Estado</span></th>
+                        <th><span></span></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Administrador</td>
+                        <td>Lorem ipsum dolor sit amet</td>
+                        <td>Habilitado</td>
+                        <td>
+                           <action-buttons></action-buttons>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Usuario</td>
+                        <td>Lorem ipsum dolor sit amet</td>
+                        <td>Habilitado</td>
+                        <td>
+                            <action-buttons></action-buttons>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+
         </main>
     </div>
 
